@@ -22,4 +22,17 @@ export const source = loader({
     ['tax-solutions'],
     ['troubleshooting'],
   ],
+  // Order of solution guide pages
+  pageOrder: [
+    [
+      'bookkeeping-tax-solution-guides/index',
+      'bookkeeping-tax-solution-guides/ai-bookkeeping-cash-basis',
+      'bookkeeping-tax-solution-guides/historical-ai-bookkeeping',
+      'bookkeeping-tax-solution-guides/enhanced-ai-bookkeeping',
+      'bookkeeping-tax-solution-guides/ai-tax-filing',
+      'bookkeeping-tax-solution-guides/historical-ai-tax-filing',
+      'bookkeeping-tax-solution-guides/enhanced-ai-tax-filing',
+      'bookkeeping-tax-solution-guides/ai-tax-strategy',
+    ]
+  ]
 });
