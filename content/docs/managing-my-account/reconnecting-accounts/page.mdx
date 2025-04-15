@@ -1,0 +1,87 @@
+---
+title: "Reconnecting Your Bank Account via Plaid"
+description: "Steps to securely reconnect your bank account via Plaid"
+---
+
+# Reconnecting Your Bank Account via Plaid
+
+<Callout type="info" title="Why Reconnect?">
+Sometimes, the connection between Uplinq and your bank via Plaid needs to be refreshed. This can happen due to bank security updates, password changes, or expired permissions. Reconnecting ensures your financial data stays up-to-date securely.
+</Callout>
+
+This guide walks you through the steps to securely re-establish the connection using Plaid.
+
+## When You Might Need to Reconnect
+
+You'll typically be prompted within Uplinq, or you might notice:
+
+- Outdated account balances or missing transactions.
+- An error message specifically mentioning a connection issue.
+- You've recently changed your online banking password or security settings.
+
+## Step-by-Step Reconnection Guide
+
+Follow these steps to securely refresh your bank connection:
+
+### 1. Locate Connection Settings
+
+Navigate to the **Account Settings** or **Linked Accounts** section within Uplinq. Look for the bank account that needs reconnection. It might have a status indicator like "Needs Attention" or "Reconnect Required."
+
+### 2. Initiate Reconnection
+
+Click the **"Reconnect"** or **"Update Connection"** button associated with the problematic account. This will launch the secure Plaid Link module.
+
+<Callout type="warn" title="Security First">
+You will **never** be asked to share your bank login details directly with Uplinq. The Plaid module is a secure, encrypted environment provided directly by Plaid to handle your credentials. Always verify `https://` in the popup window's address bar.
+</Callout>
+
+### 3. Follow the Plaid Prompts
+
+The Plaid interface will guide you through:
+
+1. **Confirm Your Bank:** Your bank should already be selected. If not, search for and select your financial institution.
+2. **Enter Credentials:** Enter the _same username and password_ you use to log in directly to your bank's website.
+
+```js title="Example: Logging into 'Example Bank'"
+// This screen is securely managed by Plaid.
+// Enter your official online banking username and password here.
+```
+
+3. **Multi-Factor Authentication (MFA):** If required, Plaid will prompt you for a security code (via SMS, email, or authenticator app) or to answer security questions.
+
+```text title="MFA Prompt Example"
+Enter the code sent to your phone ending in ***1234
+```
+
+### 4. Confirmation
+
+Once Plaid successfully connects, you'll typically see a "Success!" message within the Plaid module. You'll then be redirected back to Uplinq, and your account status should update shortly.
+
+## Troubleshooting Common Issues
+
+<Callout type="error" title="Incorrect Password?">
+Double-check you're using the exact password for your _online banking_, not your Uplinq password. Try logging directly into your bank's website first to confirm your credentials.
+</Callout>
+
+- **Bank Not Found:** Ensure you're searching for the correct official name of your bank.
+- **MFA Issues:** Make sure your contact information registered with your bank for MFA is current.
+- **Bank Maintenance:** Banks may occasionally undergo maintenance. Try again later, and check your bank's status page if available.
+- **Persistent Errors:** Repeated failures might indicate temporary issues with Plaid or your bank's integration.
+
+### Still Stuck?
+
+<Cards>
+  <Card href="/help/contact-support" title="Contact Support">
+    Reach out to our support team for personalized assistance.
+  </Card>
+  <Card href="https://plaid.com/troubleshoot/" title="Plaid Troubleshooting Guide">
+    Official tips directly from Plaid for common connection problems.
+  </Card>
+  <Card href="/help/managing-accounts" title="Managing Linked Accounts">
+    Learn more about adding and managing accounts in Uplinq.
+  </Card>
+</Cards>
+
+---
+
+By following these steps, you can quickly and securely reconnect your bank account and keep your financial information flowing smoothly into Uplinq.
