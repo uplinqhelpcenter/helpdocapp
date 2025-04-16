@@ -1,5 +1,8 @@
 /* Uplinq brand colors as CSS variables */
 :root {
+  /* Border radius for components */
+  --radius: 0.5rem;
+  
   /* Neutral colors */
   --up-n01: #050505;
   --up-n02: #0E0E0F;
@@ -24,8 +27,18 @@
   --card: var(--up-n13);
   --card-foreground: var(--up-n01);
   --border: var(--up-n12);
+  --input: var(--up-n12);
+  --ring: var(--up-n08);
   --primary: var(--up-n03);
   --primary-foreground: var(--up-nff);
+  --secondary: var(--up-n12);
+  --secondary-foreground: var(--up-n03);
+  --accent: var(--up-n13);
+  --accent-foreground: var(--up-n01);
+  --destructive: #FF0000;
+  --destructive-foreground: var(--up-nff);
+  --popover: var(--up-nff);
+  --popover-foreground: var(--up-n01);
 }
 
 /* Dark theme */
@@ -37,8 +50,18 @@
   --card: var(--up-n03);
   --card-foreground: var(--up-n13);
   --border: var(--up-n04);
+  --input: var(--up-n04);
+  --ring: var(--up-n08);
   --primary: var(--up-n12);
   --primary-foreground: var(--up-n01);
+  --secondary: var(--up-n04);
+  --secondary-foreground: var(--up-n13);
+  --accent: var(--up-n04);
+  --accent-foreground: var(--up-n13);
+  --destructive: #FF0000;
+  --destructive-foreground: var(--up-nff);
+  --popover: var(--up-n01);
+  --popover-foreground: var(--up-n13);
 }
 
 /* Custom styles for sidebar navigation */
