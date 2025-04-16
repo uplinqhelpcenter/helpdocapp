@@ -2,9 +2,13 @@
 
 /* Target the logo container in the sidebar */
 nav.fumadocs-sidebar header {
-  margin-bottom: 2.5rem !important;
-  padding-bottom: 1.5rem !important;
+  margin-bottom: 2rem !important;
+  padding-bottom: 1rem !important;
   border-bottom: 1px solid var(--fd-border);
+  position: relative;
+  height: 56px; /* Match height of the sidebar toggle button */
+  display: flex;
+  align-items: center;
 }
 
 /* Add margin above search in sidebar */
@@ -15,15 +19,17 @@ nav.fumadocs-sidebar .fumadocs-search {
 
 /* Custom wrapper for the logo */
 .sidebar-logo-wrapper {
-  padding: 1.5rem 0 0.5rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
+  padding: 0;
+  margin-left: 3.5rem;
 }
 
-/* Make logo slightly smaller */
+/* Make logo slightly smaller and position it */
 .sidebar-logo-wrapper img {
-  max-height: 35px;
+  max-height: 32px;
   width: auto;
 }
 
