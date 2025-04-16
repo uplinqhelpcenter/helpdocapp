@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+@import './fonts.css';
 
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
+
+:root {
+  --font-sans: 'TWK Lausanne', system-ui, sans-serif;
+}
+
+html {
+  font-family: 'TWK Lausanne', system-ui, sans-serif;
+}
