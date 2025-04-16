@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "NODE_OPTIONS=--max-old-space-size=4096 next build",
+    "build": "next build",
     "dev": "next dev",
     "start": "npx serve out",
     "postinstall": "fumadocs-mdx"
