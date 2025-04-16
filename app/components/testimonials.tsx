@@ -13,10 +13,10 @@ export function Testimonials() {
           </div>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div className="custom-card">
+          <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <div className="card-icon">
+                <div className="rounded-full bg-primary/10 p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -45,10 +45,10 @@ export function Testimonials() {
               </p>
             </div>
           </div>
-          <div className="custom-card">
+          <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <div className="card-icon">
+                <div className="rounded-full bg-primary/10 p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -77,10 +77,10 @@ export function Testimonials() {
               </p>
             </div>
           </div>
-          <div className="custom-card">
+          <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4">
-                <div className="card-icon">
+                <div className="rounded-full bg-primary/10 p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
