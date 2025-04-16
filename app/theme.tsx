@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export function Logo() {
   return (
-    <>
+    <div className="py-2">
       <Image
         src="/uplinq-logo-light.png"
         alt="Uplinq Logo"
@@ -20,6 +20,6 @@ export function Logo() {
         height={40}
         className="block dark:hidden"
       />
-    </>
+    </div>
   );
 }

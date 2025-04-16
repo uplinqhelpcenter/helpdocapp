@@ -11,9 +11,9 @@ import { Logo } from './theme';
 export const baseOptions: BaseLayoutProps = {
   nav: {
     title: (
-      <>
+      <div className="sidebar-logo-wrapper">
         <Logo />
-      </>
+      </div>
     ),
   },
   links: [
