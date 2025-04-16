@@ -7,7 +7,7 @@
   "devCommand": "npm run dev",
   "ignoreCommand": "exit 0",
   "github": {
-    "silent": true,
+    "silent": false,
     "autoJobCancelation": true
   }
 }
