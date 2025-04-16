@@ -10,12 +10,12 @@ We use direct GitHub integration with Vercel for deployments. This means:
 
 ## Configuration
 
-The project is configured for Next.js with the following settings:
+The project is configured as a static Next.js export with the following settings:
 
 - **Framework**: Next.js
 - **Build Command**: `npm run build`
 - **Install Command**: `npm install`
-- **Output Directory**: `.next`
+- **Output Directory**: `out`
 - **Node.js Version**: 18.x
 
 ## Troubleshooting Build Failures
@@ -24,8 +24,9 @@ If deployments fail, check the following:
 
 1. Review build logs in the Vercel dashboard for specific errors
 2. Ensure all dependencies are properly listed in package.json
-3. Verify that the Next.js configuration is compatible with Vercel
+3. Verify that the Next.js configuration is compatible with Vercel static exports
 4. Try clearing the build cache in Vercel project settings
+5. Confirm vercel.json settings match the project configuration
 
 ## Local Testing
 
@@ -36,4 +37,10 @@ npm install
 npm run build
 ```
 
-If it builds successfully locally but fails on Vercel, there may be environment-specific issues to address.
+This will generate the static site in the `out` directory, which can be previewed with:
+
+```bash
+npm start
+```
+
+If it builds successfully locally but fails on Vercel, verify that your vercel.json configuration matches the static export settings.
