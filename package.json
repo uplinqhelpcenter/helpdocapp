@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "NEXT_PUBLIC_BUILD_MODE=production next build",
-    "dev": "next dev --turbo",
-    "start": "next start",
-    "postinstall": "fumadocs-mdx",
-    "vercel-build": "NEXT_PUBLIC_BUILD_MODE=vercel NODE_OPTIONS=--max-old-space-size=4096 next build"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "npx serve out",
+    "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
     "fumadocs-core": "15.2.7",

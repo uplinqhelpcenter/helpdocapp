@@ -14,23 +14,14 @@ const config = {
   images: {
     unoptimized: true
   },
-  // Performance optimizations
-  compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
-  },
+  // Static site generation
+  output: 'export',
+  // Disable certain features for static export
+  trailingSlash: true,
+  // Minimal experimental features
   experimental: {
-    optimizeCss: true,
-    optimisticClientCache: true,
-  },
-  // Reduce build times
-  onDemandEntries: {
-    // Keep pages in memory for longer
-    maxInactiveAge: 60 * 60 * 1000,
-    // Have more pages loaded at once
-    pagesBufferLength: 5,
-  },
-  // Cache build output
-  output: 'standalone',
+    // No server actions needed
+  }
 };
 
 export default withMDX(config);
