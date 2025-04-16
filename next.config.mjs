@@ -11,6 +11,10 @@ const config = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  swcMinify: true,
+  images: {
+    unoptimized: true
+  }
 };
 
 export default withMDX(config);

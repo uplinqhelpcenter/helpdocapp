@@ -1,6 +1,6 @@
 .git
 node_modules
-.next
 .github
 README.md
+VERCEL-DEPLOY.md
 .gitignore

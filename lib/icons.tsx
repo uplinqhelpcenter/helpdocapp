@@ -13,6 +13,17 @@ const iconMap: Record<string, ComponentType<any>> = {
   'calendar': dynamic(() => import('lucide-react').then(mod => mod.Calendar)),
   'layers': dynamic(() => import('lucide-react').then(mod => mod.Layers)),
   'trending-up': dynamic(() => import('lucide-react').then(mod => mod.TrendingUp)),
+  'dollar-sign': dynamic(() => import('lucide-react').then(mod => mod.DollarSign)),
+  'briefcase': dynamic(() => import('lucide-react').then(mod => mod.Briefcase)),
+  'arrow-up-right': dynamic(() => import('lucide-react').then(mod => mod.ArrowUpRight)),
+  'file-plus': dynamic(() => import('lucide-react').then(mod => mod.FilePlus)),
+  'file-minus': dynamic(() => import('lucide-react').then(mod => mod.FileMinus)),
+  'clipboard': dynamic(() => import('lucide-react').then(mod => mod.Clipboard)),
+  'trending-down': dynamic(() => import('lucide-react').then(mod => mod.TrendingDown)),
+  'pie-chart': dynamic(() => import('lucide-react').then(mod => mod.PieChart)),
+  'bar-chart': dynamic(() => import('lucide-react').then(mod => mod.BarChart)),
+  'shopping-bag': dynamic(() => import('lucide-react').then(mod => mod.ShoppingBag)),
+  'video': dynamic(() => import('lucide-react').then(mod => mod.Video)),
   
   // Navigation and UI icons
   'book-open': dynamic(() => import('lucide-react').then(mod => mod.BookOpen)),
