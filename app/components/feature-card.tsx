@@ -14,9 +14,9 @@ export function FeatureCard({ title, description, icon, href }: FeatureCardProps
   return (
     <Link 
       href={href}
-      className="group relative flex flex-col justify-between rounded-lg border bg-card p-6 text-card-foreground shadow-sm transition-colors hover:bg-accent/40"
+      className="custom-card group relative flex flex-col justify-between p-6"
     >
-      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+      <div className="card-icon mb-4">
         {icon}
       </div>
       <div>
