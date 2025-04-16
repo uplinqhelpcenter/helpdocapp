@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npx next build",
-  "installCommand": "npm install",
+  "buildCommand": "./build.sh",
+  "installCommand": false,
   "outputDirectory": "out",
   "git": {
     "deploymentEnabled": {

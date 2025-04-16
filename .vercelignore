@@ -1,6 +1,9 @@
 # Dependencies
 node_modules
 
+# Build artifacts
+.next
+
 # Logs
 *.log
 npm-debug.log*
