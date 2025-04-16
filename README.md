@@ -2,7 +2,7 @@
 
 A repository for the Uplinq Help Center documentation application.
 
-This is a Next.js application generated with [Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+This is a Next.js application generated with [Create Fumadocs](https://github.com/fuma-nama/fumadocs), configured for static site export.
 
 ## Development
 
@@ -10,13 +10,15 @@ Run development server:
 
 ```bash
 npm run dev
-# or
-pnpm dev
-# or
-yarn dev
 ```
 
 Open http://localhost:3000 with your browser to see the result.
+
+## Deployment
+
+This site uses Vercel for deployment with static export. Pushing to the main branch automatically triggers a new deployment.
+
+The built files are output to the `out` directory, which is what Vercel serves.
 
 ## Learn More
 
