@@ -1,6 +1,6 @@
 {
   "buildCommand": "./build.sh",
-  "installCommand": false,
+  "installCommand": null,
   "outputDirectory": "out",
   "git": {
     "deploymentEnabled": {
