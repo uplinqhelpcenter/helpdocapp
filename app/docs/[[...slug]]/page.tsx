@@ -1,4 +1,4 @@
-import { source } from '@/lib/source';
+import { source } from '../../../lib/source';
 import {
   DocsPage,
   DocsBody,
@@ -7,7 +7,7 @@ import {
 } from 'fumadocs-ui/page';
 import { notFound } from 'next/navigation';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
-import { getMDXComponents } from '@/mdx-components';
+import { getMDXComponents } from '../../../mdx-components';
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
