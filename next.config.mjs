@@ -1,4 +1,5 @@
 import { createMDX } from 'fumadocs-mdx/next';
+import path from 'path';
 
 const withMDX = createMDX();
 
@@ -22,7 +23,15 @@ const config = {
   // Required for static HTML file paths
   trailingSlash: true,
   // Disable all experimental features
-  experimental: {}
+  experimental: {},
+  // Explicitly configure path aliases
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': path.resolve(__dirname, './')
+    };
+    return config;
+  }
 };
 
 export default withMDX(config);
