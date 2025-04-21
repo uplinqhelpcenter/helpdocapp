@@ -27,8 +27,8 @@ export const source = loader({
     [
       'bookkeeping-tax-solution-guides/index',
       // Bookkeeping section
-      'bookkeeping-tax-solution-guides/bookkeeping/index',
       'bookkeeping-tax-solution-guides/bookkeeping/ai-bookkeeping',
+      'bookkeeping-tax-solution-guides/bookkeeping/index',
       'bookkeeping-tax-solution-guides/bookkeeping/historical-ai-bookkeeping',
       'bookkeeping-tax-solution-guides/bookkeeping/qbo-syncing',
       'bookkeeping-tax-solution-guides/bookkeeping/accounts-receivable',
