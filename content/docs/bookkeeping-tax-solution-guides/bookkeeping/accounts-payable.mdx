@@ -4,56 +4,110 @@ description: Streamline your vendor payments and expense management with Uplinq'
 sort: 5
 ---
 
-# Accounts Payable Management
+## Accounts Payable Support – Uplinq Solution Guide  
+*Level 1 (Record‑Only) Service*
 
-<Callout type="info" title="Feature Overview">
-Uplinq's Accounts Payable support provides efficient tools for managing vendor relationships, tracking bills, and optimizing payment processes.
-</Callout>
+---
 
-## A/P Features
+### At‑a‑Glance  
+| | **What We Do** | **What We Don't Do** |
+|---|---|---|
+| **Bill Capture** | Import, review, and code vendor bills into your accounting ledger (QBO/Xero). | Pay vendors, schedule payments, or initiate ACH/checks. |
+| **Coding** | Apply GL accounts (and optional Class/Location/Job *if pre‑mapped*). | Create new GL accounts, design complex approval workflows, or split invoices across >2 dimensions without a surcharge. |
+| **Quality Control** | Flag duplicates, missing data, or unreadable scans in a weekly "Exceptions List." | Chase vendors or your staff for missing documents. |
+| **Retention** | Attach each processed bill PDF to the ledger entry; store on your cloud drive for 7 years. | Act as your long‑term document management system (>7 years) unless you upgrade storage. |
+| **Reporting** | Provide a weekly CSV of bills entered and month‑end AP Aging summary. | Produce custom KPI dashboards or analytics (available separately). |
 
-Our accounts payable solution includes:
+---
 
-- **Vendor Management:** Maintain organized vendor information and payment histories
-- **Bill Capture:** Automatically import and process incoming bills
-- **Payment Scheduling:** Schedule payments to optimize cash flow
-- **Approval Workflows:** Implement multi-level approval processes for payment authorization
-- **Payment Execution:** Process payments through ACH, check, or credit card
-- **Expense Categorization:** AI-powered categorization of expenses for accurate reporting
+### Service Flavors  
+| **Name** | **Who Provides the Bills?** | **Typical Fit** |
+|----------|----------------------------|-----------------|
+| **AP Lite – Client Drop‑Off** | You drop every invoice into a single folder/inbox by **Wednesday 12 p.m.** | Most SMBs that already receive bills via email or Dext. |
+| **AP Lite – Portal Pull** | Uplinq downloads invoices from a designated portal / shared drive you grant access to. | SaaS companies, utilities, or landlords with vendor portals. <br>*(+Fetch Fee applies)* |
 
-## Implementation Steps
+> **Important:** Both flavors are strictly *record‑only*. If you ever need us to *schedule* or *release* payments, talk to Sales about **AP Level 2**.
 
-Getting started with A/P support:
+---
 
-1. Set up your vendor database with payment information
-2. Configure approval workflows based on your organizational structure
-3. Connect payment methods and bank accounts
-4. Import existing unpaid bills (if applicable)
-5. Set up recurring payment schedules for regular vendors
+### Weekly Cadence  
 
-## Cash Flow Optimization
+```mermaid
+gantt
+    dateFormat  HH:mm
+    title  Weekly AP Timeline
+    section Client
+    Provide Bills :done, 00:00, 36h
+    section Uplinq
+    Import & Code Bills :active, 36h, 30h
+    QC & Exceptions Log : 66h, 6h
+    section Client
+    Review Exceptions : 72h, 42h
+```
 
-Uplinq's A/P tools help optimize your cash flow through:
+| Cut‑off | Deliverable | Owner |
+|---------|-------------|-------|
+| **Wed 12 p.m.** | All bills dropped/off‑loaded | Client |
+| **Fri 5 p.m.** | Bills coded + weekly CSV + exceptions list | Uplinq |
+| **Following Mon** | Client resolves open exceptions | Client |
 
-- Payment timing recommendations based on vendor terms
-- Early payment discount identification
-- Cash requirement forecasting
-- Consolidated payment runs to minimize transaction fees
+*U.S. Federal holidays push each deadline by 24 hours.*
 
-## Integration Capabilities
+---
 
-Our A/P solution integrates with:
+### What We Need From You  
+1. **Clean Vendor List** – name, default GL code, 1099 status.  
+2. **Folder/In‑App Inbox** – single drop point (no hunting across 10 emails).  
+3. **Accounting Access** – Accountant user in QBO/Xero.  
+4. **Credential Handoff** – if we're fetching bills, MFA arrangements upfront.  
+5. **Timely Responses** – questions flagged in the exceptions sheet must be answered before the next cycle.
 
-- Banking platforms for payment execution
-- Document management systems for bill storage
-- Procurement systems for purchase order matching
-- Tax preparation software for expense categorization
+---
 
-<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-  <Card title="A/P Reports" href="/docs/reporting/accounts-payable" icon="file-text">
-    Access detailed reports on vendor spending and payment history.
-  </Card>
-  <Card title="Bill Pay Setup" href="/docs/setup/bill-pay" icon="credit-card">
-    Set up automated bill payment for your business.
-  </Card>
-</div>
+### Common "Not Included" Items  
+- Paying or scheduling *any* bills (ACH, checks, credit card, crypto 🪙).  
+- Designing approval workflows or chasing approvers.  
+- Job‑cost splits across more than two dimensions (adds a **Complexity Surcharge**).  
+- Historical AP clean‑up (quoted separately).  
+- 1099 prep & filing (add‑on service).  
+
+---
+
+### Pricing Snapshot*  
+| Monthly Bills | **Drop‑Off** | **Portal Pull** |
+|---------------|-------------|-----------------|
+| Up to 25 | \$550 | \$625 |
+| 26 – 75 | \$700 | \$775 |
+| 76 – 150 | Custom | Custom |
+
+\*One‑time onboarding fee applies for vendor import & system setup.
+
+---
+
+### Frequently Asked Questions  
+
+**Q: What happens if we miss the Wednesday deadline?**  
+ A: Invoices roll into next week's batch. If you need same‑week processing, that's an *Exception Rush* billed at \$10 per invoice.
+
+**Q: Can you split a single bill across multiple jobs?**  
+ A: Yes—up to two dimensions (e.g., GL + Job). More than that triggers the Complexity Surcharge or requires upgrading service level.
+
+**Q: Do you verify vendor bank details?**  
+ A: Not in Level 1. We record invoices only. Vendor onboarding validations are part of Level 3 and higher.
+
+**Q: How secure is my data?**  
+ A: All files are stored in SOC 2‑audited cloud storage with role‑based access. MFA is enforced on every credential we hold.
+
+**Q: Can I upgrade later?**  
+ A: Absolutely. Your CSM can step you up to Level 2+ for payment scheduling or full payment execution whenever you're ready.
+
+---
+
+### Related Articles  
+- 🔗 *Getting Started with Uplinq*  
+- 🔗 *Setting Up Your AP Drop Folder in Google Drive*  
+- 🔗 *When to Upgrade to AP Level 2 (Payment Scheduling)*  
+
+---
+
+Still have questions? Open a ticket from the dashboard or email **support@uplinq.com** – we'll keep the books, you keep the cash. 😉
