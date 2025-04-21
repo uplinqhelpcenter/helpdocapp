@@ -2,7 +2,7 @@
 
 A repository for the Uplinq Help Center documentation application.
 
-This is a Next.js application generated with [Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+This is a Next.js application generated with [Create Fumadocs](https://github.com/fuma-nama/fumadocs). The site is built with static export for optimal performance.
 
 ## Development
 
