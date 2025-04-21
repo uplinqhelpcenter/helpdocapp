@@ -22,10 +22,13 @@ export const source = loader({
     ['tax-solutions'],
     ['troubleshooting'],
   ],
-  // Order of solution guide pages
+  // Order of guide pages
   pageOrder: [
     [
       'bookkeeping-tax-solution-guides/index',
+      'bookkeeping-tax-solution-guides/bookkeeping/index',
+      'bookkeeping-tax-solution-guides/bookkeeping/ai-bookkeeping',
+      'bookkeeping-tax-solution-guides/bookkeeping/historical-ai-bookkeeping',
       'bookkeeping-tax-solution-guides/ai-bookkeeping-cash-basis',
       'bookkeeping-tax-solution-guides/historical-ai-bookkeeping',
       'bookkeeping-tax-solution-guides/enhanced-ai-bookkeeping',
