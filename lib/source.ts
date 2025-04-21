@@ -26,16 +26,24 @@ export const source = loader({
   pageOrder: [
     [
       'bookkeeping-tax-solution-guides/index',
+      // Bookkeeping section
       'bookkeeping-tax-solution-guides/bookkeeping/index',
       'bookkeeping-tax-solution-guides/bookkeeping/ai-bookkeeping',
       'bookkeeping-tax-solution-guides/bookkeeping/historical-ai-bookkeeping',
-      'bookkeeping-tax-solution-guides/ai-bookkeeping-cash-basis',
-      'bookkeeping-tax-solution-guides/historical-ai-bookkeeping',
-      'bookkeeping-tax-solution-guides/enhanced-ai-bookkeeping',
-      'bookkeeping-tax-solution-guides/ai-tax-filing',
-      'bookkeeping-tax-solution-guides/historical-ai-tax-filing',
-      'bookkeeping-tax-solution-guides/enhanced-ai-tax-filing',
-      'bookkeeping-tax-solution-guides/ai-tax-strategy',
+      'bookkeeping-tax-solution-guides/bookkeeping/qbo-syncing',
+      'bookkeeping-tax-solution-guides/bookkeeping/accounts-receivable',
+      'bookkeeping-tax-solution-guides/bookkeeping/accounts-payable',
+      'bookkeeping-tax-solution-guides/bookkeeping/costing',
+      'bookkeeping-tax-solution-guides/bookkeeping/segmenting',
+      'bookkeeping-tax-solution-guides/bookkeeping/fixed-assets',
+      'bookkeeping-tax-solution-guides/bookkeeping/inventory',
+      // Tax sections
+      'bookkeeping-tax-solution-guides/tax-filing/index',
+      'bookkeeping-tax-solution-guides/tax-filing/ai-tax-filing',
+      'bookkeeping-tax-solution-guides/tax-filing/historical-ai-tax-filing',
+      'bookkeeping-tax-solution-guides/tax-filing/enhanced-ai-tax-filing',
+      'bookkeeping-tax-solution-guides/tax-strategy/index',
+      'bookkeeping-tax-solution-guides/tax-strategy/ai-tax-strategy',
     ]
   ]
 });
